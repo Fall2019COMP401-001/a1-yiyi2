@@ -71,8 +71,8 @@ public class A1Adept {
 		//a-b < 0.000001 
 		//min - i < 0.0001
 		
-		System.out.println("Biggest: " + f_names[max_indx] + " "+ l_names[max_indx] + "("+ String.format("%.2f", max) +")");	
-		System.out.println("Smallest: " + f_names[min_indx] + " " + l_names[min_indx] + "(" + String.format("%.2f", min) + ")");
+		System.out.println("Biggest: " + f_names[max_indx] + " " + l_names[max_indx] + " ("+ String.format("%.2f", max) +")");	
+		System.out.println("Smallest: " + f_names[min_indx] + " " + l_names[min_indx] + " (" + String.format("%.2f", min) + ")");
 		System.out.println("Average: " + String.format("%.2f", average));
 		//System.out.println(total[2]);
 	}
